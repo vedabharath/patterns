@@ -10,6 +10,20 @@ public class Student {
     private int gradYear;
     private String phoneNumber;
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", psp=" + psp +
+                ", universityName='" + universityName + '\'' +
+                ", batch='" + batch + '\'' +
+                ", id=" + id +
+                ", gradYear=" + gradYear +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
+    }
+
     private Student() {
 
     }
