@@ -1,4 +1,4 @@
-package designpatterns.builder;
+package com.bharath.skills.patterns.builder;
 
 public class Student {
     private String name;
